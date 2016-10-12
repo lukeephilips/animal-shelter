@@ -6,14 +6,16 @@ body {
   background-color: #32302B;
   font-family: sans-serif;
   height: 100%;
+  padding:30px;
 }
 .head {
-  background-color: #521E1E;
+  background-image: url("http://www.sculpt.com/pictures/ArchMod/7865163.gif");
+  color: white;
   padding: 8px;
   border: solid #521E1E 5px;
   border-radius: 10px;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 5px;ß
 }
 #container {
   display: block;
@@ -25,18 +27,16 @@ body {
 }
 .animal {
   float: left;
-  width: 30%;
+  width: 31%;
   padding:.75em;
   border: solid grey;
   border-width: 0px .5px 0px .5px;
   text-align: center;
   background-color: lightgrey;
-  height: 45%;
+  height: 50%;
   border: solid lightgrey 5px;
   border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 9px;
+  margin: 5px;
 
 }
 .animal img {
