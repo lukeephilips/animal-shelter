@@ -3,14 +3,14 @@ html {
 }
 body {
   text-align: center;
-  background-color: black;
+  background-color: #32302B;
   font-family: sans-serif;
   height: 100%;
 }
 .head {
-  background-color: maroon;
+  background-color: #521E1E;
   padding: 8px;
-  border: solid maroon 5px;
+  border: solid #521E1E 5px;
   border-radius: 10px;
   margin-left: 5px;
   margin-right: 5px;
@@ -30,9 +30,9 @@ body {
   border: solid grey;
   border-width: 0px .5px 0px .5px;
   text-align: center;
-  background-color: grey;
-  height: 100%;
-  border: solid grey 5px;
+  background-color: lightgrey;
+  height: 45%;
+  border: solid lightgrey 5px;
   border-radius: 10px;
   margin-left: 5px;
   margin-right: 5px;
@@ -44,13 +44,21 @@ body {
   width:26em;
   display: block;
   margin: 0 auto;
+  margin-top: 2em;
 }
 .animal h3 {
   font-family: fantasy;
   font-size: 200%;
   color: tan;
 }
+.animal p {
+  text-align: justify;
+}
 .species {
   font-weight: bold;
   color:darkred
+}
+.about {
+  background-color: lightgrey;
+
 }
