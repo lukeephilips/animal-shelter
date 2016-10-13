@@ -3,62 +3,50 @@ html {
 }
 body {
   text-align: center;
-  background-color: #32302B;
+    background-image: url("http://media.npr.org/assets/img/2016/05/27/gettyimages-530054691-ca34fe94f9c7f545c570aa6af3dcae05dd3fed12-s900-c85.jpg");
   font-family: sans-serif;
   height: 100%;
-  padding:30px;
+  padding:3%;
+  padding-top:1%
+}
+#frame {
+  background-color: lightgrey;
+  height: 100%;
+  padding: 2%;
+  border-radius: 10px;
 }
 .head {
-  background-image: url("http://www.sculpt.com/pictures/ArchMod/7865163.gif");
+
   color: white;
-  padding: 8px;
-  border: solid #521E1E 5px;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 5px;ß
-}
-#container {
-  display: block;
-  margin: 0 auto;
-  padding-top: 80px;
-  padding-left: 70px;
-  border: solid grey 5px;
+  background-color: maroon;
+  padding: 2px;
   border-radius: 10px;
 }
 .animal {
   float: left;
-  width: 31%;
-  padding:.75em;
-  border: solid grey;
-  border-width: 0px .5px 0px .5px;
+  width: 30%;
+  height: 100%;
+  padding:.5%;
   text-align: center;
-  background-color: lightgrey;
-  height: 50%;
-  border: solid lightgrey 5px;
-  border-radius: 10px;
-  margin: 5px;
+  border-radius: 10%;
+  margin: 1%;
 
 }
 .animal img {
-  height: 15em;
-  width:26em;
+  width:80%;
   display: block;
   margin: 0 auto;
-  margin-top: 2em;
 }
 .animal h3 {
   font-family: fantasy;
   font-size: 200%;
-  color: tan;
+  color: brown;
 }
 .animal p {
   text-align: justify;
 }
-.species {
+.animal .species {
   font-weight: bold;
-  color:darkred
-}
-.about {
-  background-color: lightgrey;
-
+  color:darkred;
+  font-size: 150%;
 }
