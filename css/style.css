@@ -1,52 +1,105 @@
-html {
-  height: 100%;
-}
-body {
-  text-align: center;
-    background-image: url("http://media.npr.org/assets/img/2016/05/27/gettyimages-530054691-ca34fe94f9c7f545c570aa6af3dcae05dd3fed12-s900-c85.jpg");
-  font-family: sans-serif;
-  height: 100%;
-  padding:3%;
-  padding-top:1%
-}
-#frame {
-  background-color: lightgrey;
-  height: 100%;
-  padding: 2%;
-  border-radius: 10px;
-}
-.head {
+@media only screen and (max-width:500px) {
+  body {
+      text-align: center;
+        background-image: url("http://media.npr.org/assets/img/2016/05/27/gettyimages-530054691-ca34fe94f9c7f545c570aa6af3dcae05dd3fed12-s900-c85.jpg");
+      font-family: sans-serif;
+      height: 100%;
+      padding:3%;
+      padding-top:1%
+  }
+  #frame {
+    background-color: lightgrey;
+    height: 100%;
+    padding: 0%;
+    border-radius: 10px;
+  }
+  .head {
 
-  color: white;
-  background-color: maroon;
-  padding: 2px;
-  border-radius: 10px;
-}
-.animal {
-  float: left;
-  width: 30%;
-  height: 100%;
-  padding:.5%;
-  text-align: center;
-  border-radius: 10%;
-  margin: 1%;
+    color: white;
+    background-color: maroon;
+    padding: 2px;
+    border-radius: 10px;
+  }
+  .animal {
+    float: none;
+    width: 90%;
+    height: 100%;
+    padding:.5%;
+    text-align: center;
+    border-radius: 10%;
+    margin: 1%;
 
+  }
+  .animal img {
+    width:80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .animal h3 {
+    font-family: fantasy;
+    font-size: 200%;
+    color: brown;
+  }
+  .animal p {
+    text-align: justify;
+  }
+  .animal .species {
+    font-weight: bold;
+    color:darkred;
+    font-size: 150%;
+  }
 }
-.animal img {
-  width:80%;
-  display: block;
-  margin: 0 auto;
-}
-.animal h3 {
-  font-family: fantasy;
-  font-size: 200%;
-  color: brown;
-}
-.animal p {
-  text-align: justify;
-}
-.animal .species {
-  font-weight: bold;
-  color:darkred;
-  font-size: 150%;
+@media screen and (min-width:500px) {
+  html {
+    height: 100%;
+  }
+  body {
+    text-align: center;
+      background-image: url("http://media.npr.org/assets/img/2016/05/27/gettyimages-530054691-ca34fe94f9c7f545c570aa6af3dcae05dd3fed12-s900-c85.jpg");
+    font-family: sans-serif;
+    height: 100%;
+    padding:3%;
+    padding-top:1%
+  }
+  #frame {
+    background-color: lightgrey;
+    height: 100%;
+    padding: 2%;
+    border-radius: 10px;
+  }
+  .head {
+
+    color: white;
+    background-color: maroon;
+    padding: 2px;
+    border-radius: 10px;
+  }
+  .animal {
+    float: left;
+    width: 30%;
+    padding:.5%;
+    background-color: darkgrey;
+    text-align: center;
+    border-radius: 10%;
+    margin: 1%;
+
+  }
+  .animal img {
+    width:80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .animal h3 {
+    font-family: fantasy;
+    font-size: 200%;
+    color: brown;
+  }
+  .animal p {
+    text-align: justify;
+  }
+  .animal .species {
+    font-weight: bold;
+    color:darkred;
+    font-size: 150%;
+  }
 }
